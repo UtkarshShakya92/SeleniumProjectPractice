@@ -15,7 +15,7 @@ public class GreenKart {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
-		
+		 
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		
 		String[] itemsNeeded = {"Cucumber","Brocolli","Beetroot"};

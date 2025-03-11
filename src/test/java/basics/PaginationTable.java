@@ -52,7 +52,7 @@ public class PaginationTable {
         
         int total_pages =Integer.parseInt(text.substring(text.indexOf("(")+1, text.indexOf("Pages")-1));
         
-        System.out.println("Total number of pages:"+total_pages);
+        System.out.println("Total number of pages:"+total_pages); 
         
         for(int p=1;p<=total_pages;p++)
         {
